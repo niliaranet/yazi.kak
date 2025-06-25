@@ -1,9 +1,9 @@
 # Yazi.kak
 Spawn [Yazi](https://github.com/sxyazi/yazi)s from Kakoune!!
-Inspired by [yazi.nvim](https://github.com/mikavilpas/yazi.nvim).
+Inspired by [yazi.nvim](https://github.com/mikavilpas/yazi.nvim)
+and [fzf.kak](https://github.com/andreyorst/fzf.kak).
 
-It provides commands(2) to spawn Yazi instances in separate terminals,
-similar to [fzf.kak](https://github.com/andreyorst/fzf.kak).
+It provides commands(2) to spawn Yazi instances in separate terminals.
 When said instance opens a file, it opens in your editor.
 
 ## Current state
