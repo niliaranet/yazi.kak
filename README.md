@@ -13,12 +13,13 @@ The code works but sucks too much to be reviewed.
 Give it a couple more days.
 
 ## Setup
-### Setup with plug.kak:
+### Setup with plug.kak
+Add the following line to your kakrc:
 ```kak
 plug "niliaranet/yazi.kak"
 ```
 
-### Manual setup:
+### Manual setup
 Clone the repository into a destination of your choice:
 
 ```sh
