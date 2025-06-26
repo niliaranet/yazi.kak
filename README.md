@@ -1,16 +1,10 @@
 # Yazi.kak
-Spawn [Yazi](https://github.com/sxyazi/yazi)s from Kakoune!!
+Use the [Yazi](https://github.com/sxyazi/yazi) file manager from Kakoune!!
 Inspired by [yazi.nvim](https://github.com/mikavilpas/yazi.nvim)
 and [fzf.kak](https://github.com/andreyorst/fzf.kak).
 
-It provides commands(2) to spawn Yazi instances in separate terminals.
-When said instance opens a file, it opens in your editor.
-
-## Current state
-Still in development!
-The code works but sucks too much to be reviewed.
-
-Give it a couple more days.
+It provides commands(2) to open Yazi instances in separate terminals.
+When said instance picks a file, the file opens in your editor.
 
 ## Setup
 ### Setup with plug.kak
@@ -40,6 +34,6 @@ map global normal <c-y> ':yazi<ret>'
 # open yazi in the root directory
 map global normal <a-y> ':yazi-project<ret>'
 
-# kill current buffer (because they piss me off)
+# kill current buffer (unrelated but recommended)
 map global normal <c-k> ':db<ret>'
 ```
