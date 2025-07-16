@@ -33,7 +33,4 @@ map global normal <c-y> ':yazi<ret>'
 
 # open yazi in the editor's directory
 map global normal <a-y> ':yazi-root<ret>'
-
-# kill current buffer (unrelated but recommended)
-map global normal <c-k> ':db<ret>'
 ```
